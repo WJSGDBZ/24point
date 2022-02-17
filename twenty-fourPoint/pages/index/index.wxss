@@ -1,0 +1,220 @@
+page{
+	background: #fff;
+  color: #000;
+  font-size: 30rpx;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.arth{
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.arth .btn{
+  width: 21%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+}
+
+.arth .num{
+  margin-top: -20rpx;
+}
+.good{
+  position: absolute;
+  z-index: 999;
+  left:50%;
+  transform:translate(-50%,0);
+}
+.input-formula{
+  margin: 20rpx auto;
+  width: 80%;
+  border: 3rpx solid #dfdfdf;
+  border-radius: 10rpx;
+}
+
+.submit{
+  margin-top: 20rpx;
+}
+
+.verCodeView{
+	padding: 100rpx 40rpx 32rpx 40rpx;
+}
+.nav{
+  margin-bottom: 10rpx;
+}
+cover-image{
+  height: 80rpx;
+  width: 80rpx;
+  margin: 0 auto;
+}
+.container{
+  position: relative;
+}
+.navContainer{
+  position: absolute;
+  margin: 0 auto;
+  top:10%;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 800rpx;
+  z-index: 999;
+}
+.cover{
+  width: 90%;
+  margin: 0 auto;
+  height: 700rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  overflow: auto;
+  border: 1px solid #405f80;
+  border-radius: 5px;
+  color: #405f80;
+  font-weight: bold;
+}
+
+.device_list{
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 10rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  border:1px solid black;
+  align-items: center;
+  justify-content: space-between;
+}
+.message{
+  display: flex;
+  flex-direction: column;
+}
+cover-view.title{
+  height: 70rpx;
+  margin:0 auto;
+  margin-bottom: 10rpx;
+}
+cover-view.connection{
+  color: green;
+}
+
+
+
+.verCodeSendView{
+	padding: 0 40rpx 40rpx 40rpx;
+}
+.sendTime{
+	text-align: center;
+  padding-top: 54rpx;
+  margin-bottom: 20rpx;
+}
+.verCodeInputView{
+	display: -webkit-flex;
+	padding: 0 40rpx 0 40rpx;
+}
+.verCodeInput{
+  margin: 0 58rpx 0 0;
+	height: 150rpx;
+  width: 124rpx;
+	background-color: #fff;
+	border:#DFDFDF solid 1rpx;
+	font-size: 60rpx;
+	text-align: center;
+  justify-content: space-between;
+}
+
+
+/* 新验证码输入框样式 */
+page .code .input-content-wrap .input-code-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center1;
+  height: 150rpx;
+}
+page .code .input-content-wrap .input-code-wrap .code_dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 124rpx;
+  height: 150rpx;
+  border: #dfdfdf solid 1rpx;
+  border-left: none 0;
+  font-size: 60rpx;
+}
+page .code .input-content-wrap .input-code-wrap .code_dot:nth-child(1) {
+  border-left: 2rpx solid #ddd;
+}
+page .code .input-content-wrap .input-code-wrap .code_dot i {
+  /* background: #000; */
+  border-radius: 50%;
+  width: 20rpx;
+  height: 20rpx;
+  display: flex;
+  align-items: center;
+}
+page .code .input-content {
+  position: absolute;
+  opacity: 0;
+  left: -100%;
+  top: 600rpx;
+  background: #f56;
+  z-index: -999;
+  text-align: center;
+}
+page .code .input-content.active {
+  z-index: -99;
+}
+.input {
+  height: 150rpx;
+  width: 124rpx;
+	flex: 1;
+  background-color: #fff;
+  color: #262626;
+  font-size: 64rpx;
+	margin: 0 29rpx 0 29rpx;
+	border: 1rpx #4287ff solid;
+	position: relative;
+}
+.input_none{
+  height: 150rpx;
+  width: 124rpx;
+	flex: 1;
+  background-color: #fff;
+  color: #262626;
+  font-size: 64rpx;
+	margin: 0 29rpx 0 29rpx;
+	border: 1rpx #dfdfdf solid;
+	position: relative;
+}
+.input text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.input_none text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
